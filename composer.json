@@ -8,6 +8,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Alf": "src/"
+        }
+    },
     "require": {
         "php": "^7.1"
     },
