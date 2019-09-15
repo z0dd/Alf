@@ -9,6 +9,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/laravel": "^5.7"
-    }
+        "laravel/laravel": ">=5.7",
+        "php": "^7.1",
+    },
+    "license": "MIT"
 }
