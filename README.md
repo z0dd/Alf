@@ -1,4 +1,8 @@
 # Alf
 Additional Laravel Functions
 
-````composer require z0dd/alf````
+```sh
+composer require z0dd/alf
+php artisan vendor:publish --provider="z0dd\Alf\AlfServiceProvider"
+
+````
