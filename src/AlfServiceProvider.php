@@ -26,7 +26,7 @@ class AlfServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        App::singleton('alf', function(){
+        App::singleton(Alf::class, function(){
             return new \z0dd\Alf\Alf();
         });
     }
