@@ -1,0 +1,12 @@
+{
+    "name": "z0dd/alf",
+    "description": "Additional Laravel Functions",
+    "authors": [
+        {
+            "name": "Artem Tumanov",
+            "email": "z0dd@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
