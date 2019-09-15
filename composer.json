@@ -8,5 +8,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravel/laravel": "^5.7"
+    }
 }
