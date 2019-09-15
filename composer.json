@@ -9,8 +9,15 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "Alf": "src/"
+        "psr-4": {
+            "z0dd\\Alf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "z0dd\\Alf\\AlfServiceProvider"
+            ]
         }
     },
     "require": {
@@ -18,3 +25,4 @@
     },
     "license": "MIT"
 }
+
